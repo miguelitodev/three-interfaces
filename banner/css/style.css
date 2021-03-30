@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Cronos Pro Bold Caption";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Cronos Pro Bold Caption"),
+		url("./../fonts/Cronos-Pro-Bold-Caption_12429.woff") format("woff");
+}
+
+:root {
+	--background: #eee;
+	--initial-gradient: #a20500;
+	--final-gradient: #c30600;
+	--font-cronos: "Cronos Pro Bold Caption";
+	--font-color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--background);
+	overflow: hidden;
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner {
+	width: 970px;
+	height: 250px;
+	background: linear-gradient(
+		90deg,
+		var(--initial-gradient),
+		var(--final-gradient)
+	);
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.to-invisible {
+	display: none !important;
+}
+
+.to-visible {
+	display: flex !important;
+}

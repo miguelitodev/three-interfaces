@@ -1,0 +1,45 @@
+#frame-1 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.img-frame-1:nth-child(1) {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	top: 0%;
+	transition: top 3s;
+}
+
+.img-frame-1:nth-child(2) {
+	position: absolute;
+	left: auto;
+	right: auto;
+	z-index: 3;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	top: 0%;
+	transition: top 3s;
+}
+
+.img-frame-1:nth-child(3) {
+	position: absolute;
+	right: 0;
+	z-index: 2;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	top: 0%;
+	transition: top 3s;
+}
+
+.up {
+	top: -100% !important;
+}
+
+.down {
+	top: 100% !important;
+}
