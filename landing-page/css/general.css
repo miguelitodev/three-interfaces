@@ -1,0 +1,28 @@
+:root {
+	--green: #45b679;
+	--dark-gray: #525252;
+	--gray: #525151;
+	--white: #f3faf6;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+	.container {
+		width: 100%;
+	}
+}
