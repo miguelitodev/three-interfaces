@@ -1,0 +1,26 @@
+.footer-section {
+}
+.container-footer {
+	margin: 70px auto;
+}
+.content-footer {
+	width: 300px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.content-footer span {
+	margin-top: 50px;
+}
+
+.content-footer span,
+b,
+a {
+	text-decoration: none;
+	color: var(--gray);
+	font-size: 12px;
+}
