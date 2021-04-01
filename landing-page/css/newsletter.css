@@ -1,0 +1,41 @@
+.newsletter-section {
+	background-color: var(--green);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.container-newsletter {
+	width: 470px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.container-newsletter p {
+	color: var(--white);
+	font-size: 20px;
+}
+
+.input-newsletter {
+	background-color: var(--white);
+	width: 370px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+	border-radius: 3px;
+	padding: 0px 7px;
+}
+.input-newsletter input {
+	padding: 15px;
+	border: none;
+	outline: none;
+	color: var(--green);
+}
+
+.input-newsletter input::-webkit-input-placeholder {
+	color: var(--green);
+}
