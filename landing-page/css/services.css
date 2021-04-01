@@ -1,0 +1,32 @@
+.services-section {
+	background-color: var(--green);
+	padding: 25px;
+}
+.container-services {
+	margin: 50px auto;
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+}
+.service-item {
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 230px;
+	width: 300px;
+	text-align: center;
+}
+
+.service-item h3 {
+	text-transform: uppercase;
+	color: var(--white);
+	font-weight: 600;
+	font-size: 20px;
+	margin: 30px 0px;
+}
+.service-item p {
+	color: var(--white);
+	font-weight: 400;
+	font-size: 16px;
+}
