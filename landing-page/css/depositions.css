@@ -1,0 +1,28 @@
+.depositions-section {
+	background-color: var(--white);
+}
+
+.container-depositions {
+	color: var(--gray);
+	text-align: center;
+	width: 860px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-depositions p {
+	font-size: 18px;
+	line-height: 2em;
+}
+
+.container-depositions b {
+	font-size: 16px;
+	margin-top: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.container-depositions span {
+	font-size: 16px;
+}
