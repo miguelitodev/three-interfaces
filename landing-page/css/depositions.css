@@ -22,3 +22,14 @@
 .container-depositions span {
 	font-size: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+	.container-depositions {
+		color: var(--gray);
+		text-align: center;
+		width: 80%;
+		margin: 100px auto;
+		display: flex;
+		flex-direction: column;
+	}
+}
